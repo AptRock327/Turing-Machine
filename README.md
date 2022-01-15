@@ -14,6 +14,7 @@ The Turing Machine might seem simple, but it's actually the basis of all modern 
 If you have a working, automated Turing Machine, it should in theory be able to do everything a modern computer can do, computation-wise.
 
 P.S
+
 The code is well-documented, so I highly recommend checking it out!
 
 ## Getting Started
@@ -25,31 +26,35 @@ The code is well-documented, so I highly recommend checking it out!
 
 ### Compiling (Debian-based linux)
 
-* apt-get install g++
-* apt-get install libsfml-dev
-* apt-get install git
-* git clone https://github.com/AptRock327/Turing-Machine
-* cd Turing-Machine
-* g++ TuringMachine.cpp -o TuringMachine -lsfml-graphics -lsfml-window -lsfml-system
-* chmod +x TuringMachine
-* The folder should now contain a fully-runnable executable file.
+```
+apt-get install g++
+apt-get install libsfml-dev
+apt-get install git
+git clone https://github.com/AptRock327/Turing-Machine
+cd Turing-Machine
+g++ TuringMachine.cpp -o TuringMachine -lsfml-graphics -lsfml-window -lsfml-system
+chmod +x TuringMachine
+```
+The folder should now contain a fully-runnable executable file.
 
 ### Compiling (Gentoo-based linux)
 
-* emerge media-libs/libsfml
-* emerge dev-vcs/git
-* git clone https://github.com/AptRock327/Turing-Machine
-* cd Turing-Machine
-* g++ TuringMachine.cpp -o TuringMachine -lsfml-graphics -lsfml-window -lsfml-system
-* chmod +x TuringMachine
-* The folder should now contain a fully-runnable executable file.
+```
+emerge media-libs/libsfml
+emerge dev-vcs/git
+git clone https://github.com/AptRock327/Turing-Machine
+cd Turing-Machine
+g++ TuringMachine.cpp -o TuringMachine -lsfml-graphics -lsfml-window -lsfml-system
+chmod +x TuringMachine
+```
+The folder should now contain a fully-runnable executable file.
 
 ### Compiling (Windows 7/10/11)
 
 * [Set up MinGW](https://sourceforge.net/projects/mingw/)
 * [Compile SFML](https://www.sfml-dev.org/tutorials/2.5/compile-with-cmake.php) and set it up with MinGW
 * Compile TuringMachine.cpp with SFML and the flags: -lsfml-graphics -lsfml-window -lsfml-system
-* The folder should now contain a fully-runnable executable file.
+The folder should now contain a fully-runnable executable file.
 Note that since this guide isn't that precise, you might want to search up on how to set up SFML with Windows on your own.
 
 ### Instructions
