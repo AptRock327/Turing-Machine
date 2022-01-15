@@ -1,6 +1,7 @@
 # Turing Machine
 
 Hi, this is my little project I did during vacation, because I was slightly bored.
+
 It's an open-source Turing Machine simulator!
 
 ## Description
@@ -18,6 +19,8 @@ P.S
 The code is well-documented, so I highly recommend checking it out!
 
 ## Getting Started
+
+If you're a linux user, check out the latest release if you don't want to compile the program yourself.
 
 ### Dependencies
 
