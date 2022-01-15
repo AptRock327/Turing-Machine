@@ -57,7 +57,9 @@ The folder should now contain a fully-runnable executable file.
 * [Set up MinGW](https://sourceforge.net/projects/mingw/)
 * [Compile SFML](https://www.sfml-dev.org/tutorials/2.5/compile-with-cmake.php) and set it up with MinGW
 * Compile TuringMachine.cpp with SFML and the flags: -lsfml-graphics -lsfml-window -lsfml-system
+
 The folder should now contain a fully-runnable executable file.
+
 Note that since this guide isn't that precise, you might want to search up on how to set up SFML with Windows on your own.
 
 ### Instructions
