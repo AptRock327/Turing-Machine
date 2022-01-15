@@ -76,7 +76,7 @@ Hold Q to check if the currently selected cell has the value 0, and R to check i
 
 ## License
 
-This project is licensed under the GNU GPL v2 License - see the LICENSE.md file for details
+This project is licensed under the GNU GPL v2 License - see the LICENSE file for details
 
 ## Acknowledgments
 
